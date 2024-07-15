@@ -1,0 +1,89 @@
+.container {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0;
+    padding: 0 15px;
+}
+
+/* .equal-height {
+    display: flex; 
+}
+
+.equal-height > [class^='col-'] {
+    display: flex;        
+    flex-direction: column; Column direction so children are stacked vertically 
+} 
+*/
+
+.floating-box {
+    border-radius: 10px;    
+    background-color: #1c1b1b; 
+    box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.15);
+    padding: 20px;         
+    flex: 1;               /* Allow the content inside to take up the full height of the column */ 
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-textbox {
+    width: 100%;       
+    height: 150px;         
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 12.5px;        
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    outline: none;      
+    box-sizing: border-box;
+    resize: none;         
+}
+
+.custom-button {
+    width: 100%;                
+    height: auto;               
+    padding: 10px;              
+    background-color: #6f06df;    
+    color: white;                
+    border-radius: 5px;        
+    cursor: pointer;        
+    outline: none;              
+    box-sizing: border-box;     
+    transition: background-color 0.3s; 
+    font-size: 16px;
+}
+
+.display-info {
+    background-color: black;
+    border-radius: 10px;    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center; 
+    padding: 10px;
+    margin: 0;
+    color: #555;
+}
+  
+.md-font {
+    font-size: 18px;    
+}
+
+.sm-font {
+    font-size: 15px;
+}
+
+.xs-font {
+    font-size: 9px;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.bold {
+    font-weight: bold;  
+}
